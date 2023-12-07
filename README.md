@@ -1,5 +1,6 @@
-
 # Go Green Project
+This project is meant to create a better green community
+
 ## RUN process 
 - First download xampp control pranel
 - setup your xampp and phpmyadmin
