@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Portal Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Mooli&family=Noto+Sans+JP:wght@100&family=Noto+Sans+Linear+B&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <!--*************CONTACT US CONTENT*************-->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.745961340446!2d88.44517707600676!3d22.959581118674627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027730302f6e25%3A0xe50dfccae21e1fc!2sJIS%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1700502420682!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="uil uil-estate"></i>
+                    <span>
+                        <h5>Backpore-Kalyani Road, Block A5</h5>
+                        <p>Kalyani, West Bengal, India, 741235</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="uil uil-phone"></i>
+                    <span>
+                        <h5>+91 9635002381</h5>
+                        <p>Monday to Saturday, 10AM to 5PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="uil uil-envelope-upload"></i>
+                    <span>
+                        <h5>info@seedlink.com</h5>
+                        <p>Email us for any query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="formhandler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Meassage" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--*********************FOOTER**********************-->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore culpa eius, iusto nihil atque soluta, est ut fugit <br>repellendus vel harum officiis voluptate sed provident ad eveniet optio ipsa nesciunt.</p>
+        <div class="icons">
+            <i class="uil uil-facebook-f"></i>
+            <i class="uil uil-facebook-messenger"></i>
+            <i class="uil uil-twitter"></i>
+            <i class="uil uil-instagram"></i>
+            <i class="uil uil-linkedin"></i>
+        </div>
+        <p>Made with <i class="uil uil-heart"></i> by SeedLink</p>
+    </section>
+</body>
+</html>
